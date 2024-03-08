@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-field">
+        <textarea placeholder="Enter your new todo"></textarea>
+        <i class="bx bx-notepad note-icon"></i>
+      </div>
+
+      <ul class="todoLists">
+        <li class="list">
+          <input type="checkbox" />
+          <span class="task">Renew gym membership</span>
+          <i class="bx bx-trash"></i>
+        </li>
+        <li class="list">
+          <input type="checkbox" />
+          <span class="task"
+            >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Distinctio saepe quo excepturi perspiciatis eveniet quod?</span
+          >
+          <i class="bx bx-trash"></i>
+        </li>
+      </ul>
+
+      <div class="pending-tasks">
+        <span>You have no tasks pending</span>
+        <button class="clear-button">Clear All</button>
+      </div>
+    </div>
+  </body>
+</html>
