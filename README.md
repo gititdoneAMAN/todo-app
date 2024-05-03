@@ -23,5 +23,6 @@ Click the "Add Task" button to add the task to the list.
 To delete a task, click the delete icon next to the task.
 To clear all tasks, click the "Clear All" button.
 
-##Demo
-Live link will be uploaded soon.
+##Deployment
+Deployed on vercel.
+https://todo-app-iota-ashen-32.vercel.app/
